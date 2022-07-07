@@ -3,9 +3,6 @@ import './home.css'
 import 'antd/dist/antd.css';
 import useApp from "../../hook/AppHook"
 
-
-
-
 const Home = () => {
     const { lang, setLang, Navigation } = useApp();
     return (
