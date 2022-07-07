@@ -1,0 +1,44 @@
+{
+  "Navigation": {
+    "HomePage": "Нүүр хуудас",
+    "About": "Бидний тухай",
+    "Service": "Үйлчилгээ",
+    "Partner": "Харилцагчид",
+    "Contact": "Холбоо барих",
+    "Order": "Цаг захиалагын нэгдсэн плотформ"
+  },
+  "About": {
+    "TextTitle": "Яагад\"FunPlus?\"-ыг сонгох вэ?",
+    "2hTitle": "Хэрэглэгчийн сэтгэл ханамжид суурилсан цогц систем",
+    "Circuletxt1": "хэзээ ч,Хаана ч,Хүссэн цагаа цаг захмиалах боломжтой ",
+    "Circuletxt2": "хурдан шуурхай ашиглах бүрд урамшуулалтай",
+    "Circuletxt3": "Байгууллагад зориулсан шинэлэг систем хангамж"
+  },
+  "Services": {
+    "ServicesTittle": "Үйлчилгээ",
+    "ServicesMarketingTitle": "Цогц маркетинг",
+    "ServicesSystem": "Систем хагнамж",
+    "ServicesLoyaltyTitle": "Лояалти",
+    "ServicesBrandNewTitle": "Шинэлэг",
+    "servicesSystem": "Байгууллагад зориулсан хэзээ ч хаана чь хаанаас ч хүссэн үедээ шалгах",
+    "servicesMarketingpackage": "Хэрэглэгчлын зан төлөвт суурилсан маркетинг үйлчилгээ",
+    "servicesLoyalty": "Үнэнч хэрэглэгчдэд зориулсан гишүүнчилэл хөнгөлөлт ",
+    "servicesBrandNew": "Олон талт үйлчилгээг багтаасан цогц платформ"
+  },
+  "Customer": {
+    "CustomerTitle": "БИДЭНТЭЙ ХАМТРАН АЖИЛЛАДАГ ТАНД БАЯРЛАЛАА"
+  },
+  "Contact": {
+    "ContactTitle": "Холбоо барих",
+    "ContctLocation": "Монгол улс,ЧД 4-р хорооь,Нэгдсэн Үндэсний гудамж,21-101"
+  },
+  "HumanResources": {
+    "HumanResourcesTitle": "Humon resources",
+    "Window1Title": "Front end developer",
+    "Window2Title": "Flutter developer",
+    "Window3Title": "Back end developer",
+    "Developers": "Хөгжүүлэлт",
+    "WindowFullTime": "Бүтэн цаг",
+    "Button": "Илгээх"
+  }
+}

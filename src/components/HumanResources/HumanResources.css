@@ -1,0 +1,40 @@
+.window1,
+.window2,
+.window3 {
+    border-radius: 10px;
+    box-shadow: 3px 2px #888888;
+    width: 300px;
+    height: 150px;
+    font-size: 20px;
+}
+
+.window1 h1 {
+    font-size: 30px;
+}
+
+.HUmanButton {
+    background: #EE2A5F;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    width: 80px;
+    height: 30px;
+}
+
+.window1 hr {
+    background: blue;
+    width: 50%;
+    color: blue;
+}
+
+.window2 hr {
+    background: blue;
+    width: 50%;
+    color: blue;
+}
+
+.window3 hr {
+    background: blue;
+    width: 50%;
+    color: blue;
+}

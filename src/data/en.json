@@ -1,0 +1,44 @@
+{
+  "Navigation": {
+    "HomePage": "Home",
+    "About": "About us",
+    "Service": "Service",
+    "Partner": "Consumer",
+    "Contact": "Contact us",
+    "Order": "ONLINE BOOKING PLATFOTM"
+  },
+  "About": {
+    "TextTitle": "Why you should choose \"FunPlus?\"",
+    "2hTitle": "Integration system based on consumer satisfaction survey",
+    "Circuletxt1": "Able to book whenever,whereever",
+    "Circuletxt2": "Quik and prompt,get a promo everty time you use",
+    "Circuletxt3": "Brand new system for companies"
+  },
+  "Services": {
+    "ServicesTittle": "Our services",
+    "ServicesMarketingTitle": "Marketing packeg",
+    "ServicesSystem": "System",
+    "ServicesLoyaltyTitle": "Loyalty",
+    "ServicesBrandNewTitle": "Brand new",
+    "servicesSystem": "For companies to use whenever&wherever",
+    "servicesMarketingpackage": "Marketing services based on consumer behavior",
+    "servicesLoyalty": "Membership and discounts for loyal customers",
+    "servicesBrandNew": "Integrated platform for versatile services"
+  },
+  "Customer": {
+    "CustomerTitle": "Thank you cooperating with us"
+  },
+  "Contact": {
+    "ContactTitle": "Contact info",
+    "ContctLocation": "#21 Building,UN street,4th khoroo,Chingeltei district UlaanBaatar City,Mongolia"
+  },
+  "HumanResources": {
+    "HumanResourcesTitle": "Humon resources",
+    "Window1Title": "Front end developer",
+    "Window2Title": "Flutter developer",
+    "Window3Title": "Back end developer",
+    "Developers": "Developer team",
+    "WindowFullTime": "Full time",
+    "Button": "Apply"
+  }
+}
