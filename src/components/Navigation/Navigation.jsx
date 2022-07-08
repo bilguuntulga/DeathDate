@@ -46,10 +46,13 @@ export const Navigation = (props) => {
                             }
                         </a></li>
                         <a>
-                            <img src={GlobalIcon} onClick={(e) => setLang(e.currentTarget)} alt="" />
-                            if (condition) {
-
-                            }
+                            <img src={GlobalIcon} onClick={() => {
+                                if (lang === "MN"){
+                                    setLang("EN");
+                                }else{
+                                    setLang("MN");
+                                }
+                            }} alt="" />
                         </a>
                     </div>
                 </ul>
