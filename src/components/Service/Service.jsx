@@ -22,7 +22,7 @@ function Service() {
                 }
             </h1>
 
-            <div align="center">
+            <div className='Services' align="center">
                 <Row justify='center' align='bottom' gutter={[80, 80]}>
                     <Col sm={{ span: 20 }} md={{ span: 10 }} lg={{ span: 5 }} xl={{ span: 10 }} xxl={{ span: 5 }}>
                         <Fade left>

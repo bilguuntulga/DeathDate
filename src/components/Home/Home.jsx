@@ -2,6 +2,7 @@ import React from 'react'
 import './home.css'
 import 'antd/dist/antd.css';
 import useApp from "../../hook/AppHook"
+import { Row, Col } from 'antd';
 
 const Home = () => {
     const { lang, setLang, Navigation } = useApp();
@@ -9,12 +10,15 @@ const Home = () => {
         <>
             <div className="home">
                 <div className='text'>
-
-                    <h1>
-                        {
-                            Navigation["Order"]
-                        }
-                    </h1>
+                    <Row>
+                        <Col>
+                            <h1>
+                                {
+                                    Navigation["Order"]
+                                }
+                            </h1>
+                        </Col>
+                    </Row>
                 </div>
             </div>
         </>

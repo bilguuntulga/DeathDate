@@ -20,16 +20,18 @@ const OurAbout = () => {
             <div id="about">
                 <div className="about1">
                     <Row align="center">
-                        <h1>
-                            {
-                                About["TextTitle"]
-                            }
-                        </h1>
-                        <h3>
-                            {
-                                About["2hTitle"]
-                            }
-                        </h3>
+                        <Col>
+                            <h1>
+                                {
+                                    About["TextTitle"]
+                                }
+                            </h1>
+                            <h3 align="center">
+                                {
+                                    About["2hTitle"]
+                                }
+                            </h3>
+                        </Col>
                     </Row>
                 </div>
                 <Row align="center">

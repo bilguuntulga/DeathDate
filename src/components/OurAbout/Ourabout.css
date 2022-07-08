@@ -63,3 +63,9 @@
 .about1 h3 {
     font-size: 2.2rem;
 }
+
+@media all and (max-width:500px) {
+    .ShapelisSHape1 {
+        border-radius: 10%;
+    }
+}
