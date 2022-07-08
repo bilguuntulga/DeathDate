@@ -45,7 +45,12 @@ export const Navigation = (props) => {
                                 Navigation["Contact"]
                             }
                         </a></li>
-                        <img src={GlobalIcon} alt="" />
+                        <a>
+                            <img src={GlobalIcon} onClick={(e) => setLang(e.currentTarget)} alt="" />
+                            if (condition) {
+
+                            }
+                        </a>
                     </div>
                 </ul>
             </nav>
