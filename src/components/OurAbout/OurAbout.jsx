@@ -3,81 +3,68 @@ import Mobile from '../../assets/Phone11.svg'
 import { Row, Col } from "antd";
 import './Ourabout.css'
 import useApp from "../../hook/AppHook"
-import { Zoom, Fade } from 'react-reveal';
+import { Fade } from 'react-reveal';
 
 const OurAbout = () => {
     const { About } = useApp();
 
     return (
-        <>
-            <div id="about">
-                <div className="about1">
+        <div id="about">
+            <h1 className="title">
+                {
+                    About["Title"]
+                }
+            </h1>
+            <h3 className="subtitle">
+                {
+                    About["Subtitle"]
+                }
+            </h3>
+            <Row justify="center" align="middle">
+                <Col>
+                    <Fade left><img className="phone" src={Mobile} alt="Phone" /></Fade>
+                </Col>
+                <Col>
                     <Row align="center">
                         <Col>
-                            <h1>
-                                {
-                                    About["TextTitle"]
-                                }
-                            </h1>
-                            <h3 align="center">
-                                {
-                                    About["2hTitle"]
-                                }
-                            </h3>
+                            <Fade left>
+                                <div className="shape1">
+                                    <p>
+                                        {
+                                            About["Circuletxt1"]
+                                        }
+                                    </p>
+                                </div>
+                            </Fade>
+                        </Col>
+                        <Col>
+                            <Fade right>
+                                <div className="shape2">
+                                    <p>
+                                        {
+                                            About["Circuletxt2"]
+                                        }
+                                    </p>
+                                </div>
+                            </Fade>
                         </Col>
                     </Row>
-                </div>
-                <Row align="center">
-                    <Col>
-                        <Zoom> <img className="Phone" src={Mobile} alt="" /></Zoom>
-                    </Col>
-                    <Col>
-                        <Row >
-                            <Col>
-                                <Fade left>
-                                    <div className="ShapelisSHape1">
-                                        <div className="shape11">
-                                            <h2 >
-                                                {
-                                                    About["Circuletxt1"]
-                                                } </h2>
-                                        </div>
-                                    </div>
-                                </Fade>
-                            </Col>
-                            <Col>
-                                <Fade right>
-                                    <div className="ShapelisSHape2">
-                                        <div className="shape22">
-                                            <h2 className="" >
-                                                {
-                                                    About["Circuletxt2"]
-                                                } </h2>
-                                        </div>
-                                    </div>
-                                </Fade>
-                            </Col>
-                        </Row>
-                        <Row justify="center">
-                            <Col>
-                                <Fade up>
-                                    <div className="ShapelisSHape3">
-                                        <div className="shape33">
-                                            <h2 className="" >
-                                                {
-                                                    About["Circuletxt3"]
-                                                }
-                                            </h2>
-                                        </div>
-                                    </div>
-                                </Fade>
-                            </Col>
-                        </Row>
-                    </Col>
-
-                </Row>
-            </div>
-        </>
+                    <Row justify="center">
+                        <Col>
+                            <Fade up>
+                                <div className="shape3">
+                                    <p>
+                                        {
+                                            About["Circuletxt3"]
+                                        }
+                                    </p>
+                                </div>
+                            </Fade>
+                        </Col>
+                    </Row>
+                </Col>
+            </Row>
+        </div>
     )
 }
 
