@@ -1,7 +1,6 @@
 import * as React from "react";
 import Mobile from '../../assets/Phone11.svg'
 import { Row, Col } from "antd";
-import 'antd/dist/antd.css';
 import './Ourabout.css'
 import useApp from "../../hook/AppHook"
 import { Zoom, Fade } from 'react-reveal';
@@ -33,7 +32,7 @@ const OurAbout = () => {
                         <Zoom> <img className="Phone" src={Mobile} alt="" /></Zoom>
                     </Col>
                     <Col>
-                        <Row gutter={100}>
+                        <Row >
                             <Col>
                                 <Fade left>
                                     <div className="ShapelisSHape1">

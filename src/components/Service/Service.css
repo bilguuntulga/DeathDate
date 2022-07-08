@@ -1,30 +1,60 @@
-.service-title {
-    font-size: 4rem;
-    font-weight: 400;
+/*Mobile*/
+@media screen and (max-width: 767px) {
+    .service-title {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .square {
+        margin: auto;
+        width: 100%;
+        box-shadow: 0px 3px 10px #999;
+        border-radius: 10px;
+    }
 }
 
-.Square {
-    padding-top: 20px;
-    width: 100%;
-    height: 200px;
-    box-shadow: 0px 5px 10px #999;
-    align-items: center;
-    text-align: center;
-    font-size: 20px;
-    border-radius: 10px;
+/*Tablet*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .service-title {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .square {
+        width: 200px;
+        height: 150px;
+        padding-top: 20px;
+        box-shadow: 0px 3px 10px #999;
+        border-radius: 10px;
+    }
+
+    .square h2, p {
+        text-align: center;
+    }
+
+
+    .laptop{
+        height: 150px;
+    }
 }
 
-.Horzintal {
-    width: 80%;
-    color: #999;
-    size: 2px;
-}
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+    .service-title {
+        text-align: center;
+        font-size: 60px;
+    }
 
-.Fununity {
-    color: #456580;
-    font-family: 'Kanit', sans-serif;
-}
+    .square {
+        width: 300px;
+        height: 200px;
+        padding: 50px 25px;
+        box-shadow: 0px 3px 10px #999;
+        border-radius: 10px;
+    }
 
-.Services {
-    margin-bottom: 50px;
+    .square h2,
+    p {
+        text-align: center;
+    }
 }

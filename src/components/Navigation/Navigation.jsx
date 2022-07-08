@@ -1,9 +1,7 @@
-/* eslint-disable no-restricted-globals */
 import * as React from "react";
 import GlobalIcon from '../../assets/Global.png'
 import useApp from "../../hook/AppHook"
 import './navigation.css'
-import 'antd/dist/antd.css';
 import FunPlus from '../../assets/PunPlus.png'
 
 export const Navigation = (props) => {
@@ -18,7 +16,7 @@ export const Navigation = (props) => {
                     <input type="checkbox" id="checkbox_toggle" />
                     <label for="checkbox_toggle" class="hamburger">&#9776;</label>
                     <div class="menu">
-                        <li><a href="#home" id="home">
+                        <li><a href="#home">
                             {
                                 Navigation["HomePage"]
                             }
@@ -45,15 +43,13 @@ export const Navigation = (props) => {
                                 Navigation["Contact"]
                             }
                         </a></li>
-                        <a>
-                            <img src={GlobalIcon} onClick={() => {
-                                if (lang === "MN") {
-                                    setLang("EN");
-                                } else {
-                                    setLang("MN");
-                                }
-                            }} alt="" />
-                        </a>
+                        <img src={GlobalIcon} onClick={() => {
+                            if (lang === "MN") {
+                                setLang("EN");
+                            } else {
+                                setLang("MN");
+                            }
+                        }} alt="" />
                     </div>
                 </ul>
             </nav>

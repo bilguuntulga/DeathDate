@@ -7,6 +7,8 @@ import PartnerShip from './components/Partner Ship/PartnerShip'
 import Home from './components/Home/Home'
 import HumanResources from './components/HumanResources/HumanResources'
 import SmoothScroll from 'smooth-scroll'
+import 'antd/dist/antd.min.css'
+import './App.css'
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
     speed: 1000,

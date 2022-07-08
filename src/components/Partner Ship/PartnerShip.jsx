@@ -1,6 +1,5 @@
 import React from 'react'
 import { Row, Col } from 'antd';
-import 'antd/dist/antd.css';
 import OyuTolgoi from '../../assets/Oyutolgoi.svg'
 import Dashwaanjil from '../../assets/Dashwanjil.png'
 import Mobicom from '../../assets/Mobicom.png'
