@@ -5,15 +5,9 @@ import 'antd/dist/antd.css';
 import './Ourabout.css'
 import useApp from "../../hook/AppHook"
 import { Zoom, Fade } from 'react-reveal';
-import SmoothScroll from 'smooth-scroll'
-
-export const scroll = new SmoothScroll('a[href*="#"]', {
-    speed: 1000,
-    speedAsDuration: true,
-})
 
 const OurAbout = () => {
-    const { lang, setLang, About } = useApp();
+    const { About } = useApp();
 
     return (
         <>

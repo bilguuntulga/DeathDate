@@ -9,18 +9,10 @@ import { ImTwitter } from "react-icons/im";
 import { BsYoutube } from "react-icons/bs";
 import cIcon from '../../assets/C.png';
 import contact from '../../assets/Contact.png'
-// import './Contact.css'
 import useApp from "../../hook/AppHook"
-import SmoothScroll from 'smooth-scroll'
-
-export const scroll = new SmoothScroll('a[href*="#"]', {
-    speed: 1000,
-    speedAsDuration: true,
-})
-
 
 const Contact = () => {
-    const { lang, setLang, Contact } = useApp();
+    const { Contact } = useApp();
 
     return (
         <div>

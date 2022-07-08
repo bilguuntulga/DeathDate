@@ -18,7 +18,7 @@ export const Navigation = (props) => {
                     <input type="checkbox" id="checkbox_toggle" />
                     <label for="checkbox_toggle" class="hamburger">&#9776;</label>
                     <div class="menu">
-                        <li><a href="/">
+                        <li><a href="#home" id="home">
                             {
                                 Navigation["HomePage"]
                             }
@@ -47,9 +47,9 @@ export const Navigation = (props) => {
                         </a></li>
                         <a>
                             <img src={GlobalIcon} onClick={() => {
-                                if (lang === "MN"){
+                                if (lang === "MN") {
                                     setLang("EN");
-                                }else{
+                                } else {
                                     setLang("MN");
                                 }
                             }} alt="" />

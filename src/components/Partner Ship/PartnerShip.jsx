@@ -8,16 +8,9 @@ import Unitel from '../../assets/logo.svg'
 import './PartnerShip.css'
 import useApp from "../../hook/AppHook"
 import { Zoom } from 'react-reveal';
-import SmoothScroll from 'smooth-scroll'
-
-export const scroll = new SmoothScroll('a[href*="#"]', {
-    speed: 1000,
-    speedAsDuration: true,
-})
-
 
 const PartnerShip = () => {
-    const { lang, setLang, Customer } = useApp();
+    const { Customer } = useApp();
 
     return (
         <>
@@ -28,7 +21,7 @@ const PartnerShip = () => {
             </b></h1>
             <div className='Partner' align="center">
                 <Zoom>
-                    <Row align='middle' justify='center' gutter={[3, { sm: 50, md: 75, lg: 100 }]} >
+                    <Row align='middle' justify='center' >
                         <Col sm={{ span: 20 }} md={{ span: 10 }} lg={{ span: 5 }}>
                             <img style={{ width: 150 }} src={OyuTolgoi} alt="" />
                         </Col >

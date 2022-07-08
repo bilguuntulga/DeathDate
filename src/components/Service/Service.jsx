@@ -4,15 +4,9 @@ import 'antd/dist/antd.css';
 import useApp from "../../hook/AppHook"
 import './Service.css'
 import { Zoom, Fade } from 'react-reveal';
-import SmoothScroll from 'smooth-scroll'
-
-export const scroll = new SmoothScroll('a[href*="#"]', {
-    speed: 1000,
-    speedAsDuration: true,
-})
 
 function Service() {
-    const { lang, setLang, Services } = useApp();
+    const { Services } = useApp();
 
     return (
         <>

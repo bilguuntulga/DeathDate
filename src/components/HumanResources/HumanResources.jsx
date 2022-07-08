@@ -9,11 +9,11 @@ import './HumanResources.css'
 
 function HumonResources() {
 
-    const { lang, setLang, HumanResources } = useApp();
+    const { HumanResources } = useApp();
 
     return (
         <>
-            <div id='HumonResources' className="HUman">
+            <div id='HumonResources' className="human">
                 <h1 align="center">
                     {
                         HumanResources["HumanResourcesTitle"]

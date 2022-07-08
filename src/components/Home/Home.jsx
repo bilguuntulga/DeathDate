@@ -3,20 +3,23 @@ import './home.css'
 import 'antd/dist/antd.css';
 import useApp from "../../hook/AppHook"
 import { Row, Col } from 'antd';
+import { Zoom } from 'react-reveal';
 
 const Home = () => {
-    const { lang, setLang, Navigation } = useApp();
+    const {Navigation } = useApp();
     return (
         <>
-            <div className="home">
+            <div className="home" id='home'>
                 <div className='text'>
                     <Row>
                         <Col>
-                            <h1>
-                                {
-                                    Navigation["Order"]
-                                }
-                            </h1>
+                            <Zoom>
+                                <h1>
+                                    {
+                                        Navigation["Order"]
+                                    }
+                                </h1>
+                            </Zoom>
                         </Col>
                     </Row>
                 </div>
