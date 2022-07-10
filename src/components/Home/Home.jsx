@@ -5,7 +5,7 @@ import './Home.css'
 const Home = () => {
     const { Navigation } = useApp();
     return (
-        <div className='container'>
+        <div className='home-container'>
             <div className='background'></div>
             <div className='text'>
                 <h1>{Navigation["Order"]}
@@ -15,4 +15,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default Home;

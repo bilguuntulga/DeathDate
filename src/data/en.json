@@ -40,5 +40,15 @@
     "Developers": "Developer team",
     "WindowFullTime": "Full time",
     "Button": "Apply"
+  },
+  "Front-End": {
+    "Title": "Front-End Developer",
+    "Subtitle": "If you would like to be part of us, please send your CV",
+    "Name": "Name",
+    "Phone": "Phone number",
+    "E-Mail": "E-Mail",
+    "CV-File": "CV-File",
+    "CV": "CV",
+    "Apply": "Apply"
   }
 }

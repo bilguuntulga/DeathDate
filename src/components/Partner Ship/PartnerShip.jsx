@@ -1,5 +1,4 @@
 import React from 'react'
-import { Row, Col } from 'antd';
 import OyuTolgoi from '../../assets/Oyutolgoi.svg'
 import Dashwaanjil from '../../assets/Dashwanjil.png'
 import Mobicom from '../../assets/Mobicom.png'
@@ -12,31 +11,19 @@ const PartnerShip = () => {
     const { Customer } = useApp();
 
     return (
-        <>
-            <h1 id='partner' align="center" className='title' > <b>
-                {
-                    Customer["CustomerTitle"]
-                }
-            </b></h1>
-            <div className='Partner' align="center">
+        <div id='partner' className='partner-ship-container'>
+            <h1 className='title' >
+                <b>{Customer["CustomerTitle"]}</b>
+            </h1>
+            <div className='partners'>
                 <Zoom>
-                    <Row align='middle' justify='center' >
-                        <Col sm={{ span: 20 }} md={{ span: 10 }} lg={{ span: 5 }}>
-                            <img style={{ width: 150 }} src={OyuTolgoi} alt="" />
-                        </Col >
-                        <Col sm={{ span: 20 }} md={{ span: 10 }} lg={{ span: 5 }}>
-                            <img style={{ width: 150 }} src={Mobicom} alt="" />
-                        </Col >
-                        <Col sm={{ span: 20 }} md={{ span: 10 }} lg={{ span: 5 }}>
-                            <img style={{ width: 150 }} src={Dashwaanjil} alt="" />
-                        </Col>
-                        <Col sm={{ span: 20 }} md={{ span: 10 }} lg={{ span: 5 }}>
-                            <img style={{ width: 150 }} src={Unitel} alt="" />
-                        </Col>
-                    </Row>
+                    <img className="partner-logo" src={OyuTolgoi} alt="Oyu Tolgoi" />
+                    <img className="partner-logo" src={Mobicom} alt="Mobicom" />
+                    <img className="partner-logo" src={Dashwaanjil} alt="Dashwaajil" />
+                    <img className="partner-logo" src={Unitel} alt="Unitel" />
                 </Zoom>
             </div>
-        </>
+        </div>
     )
 }
 

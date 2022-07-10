@@ -1,18 +1,55 @@
+@media (max-width: 767px) {
+    .jobs {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .jobs {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 1024px) {
+    .human-resouce-container {
+        width: 960px;
+        height: 80vh;
+    }
+
+    .jobs {
+        display: flex;
+        justify-content: center;
+
+    }
+}
+
+
 .window1,
 .window2,
 .window3 {
     border-radius: 10px;
-    box-shadow: 3px 2px #888888;
+    box-shadow: 0px 5px 10px #999;
     width: 300px;
     height: 150px;
     font-size: 20px;
+    margin: 50px 10px;
+}
+
+.window1 img,
+.window2 img,
+.window3 img {
+    margin-right: 5px;
 }
 
 .window1 h1 {
     font-size: 30px;
 }
 
-.HUmanButton {
+.job-button {
     background: #EE2A5F;
     border: none;
     border-radius: 10px;
@@ -21,18 +58,8 @@
     height: 30px;
 }
 
-.window1 hr {
-    background: blue;
-    width: 50%;
-    color: blue;
-}
-
-.window2 hr {
-    background: blue;
-    width: 50%;
-    color: blue;
-}
-
+.window1 hr,
+.window2 hr,
 .window3 hr {
     background: blue;
     width: 50%;

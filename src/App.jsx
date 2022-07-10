@@ -1,13 +1,11 @@
 import React from 'react';
+import { Route, Routes } from 'react-router-dom';
 import Navigation from './components/Navigation/Navigation';
-import OurAbout from './components/OurAbout/OurAbout';
 import Contact from './components/Contact/Contact';
-import Service from './components/Service/Service';
-import PartnerShip from './components/Partner Ship/PartnerShip';
-import Home from './components/Home/Home';
-import HumanResources from './components/HumanResources/HumanResources';
 import SmoothScroll from 'smooth-scroll';
 import 'antd/dist/antd.min.css';
+import Main from './Main';
+import FrontEnd from './components/FrontEnd/FrontEnd';
 import './App.css';
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -19,11 +17,11 @@ const App = () => {
     return (
         <>
             <Navigation />
-            <Home />
-            <OurAbout />
-            <Service />
-            <HumanResources />
-            <PartnerShip />
+            <Routes>
+                <Route path="/" element={<Main />}>
+                    <Route path="front-end" element={<FrontEnd />} />
+                </Route>
+            </Routes>
             <Contact />
         </>
     )

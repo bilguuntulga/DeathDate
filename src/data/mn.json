@@ -40,5 +40,15 @@
     "Developers": "Хөгжүүлэлт",
     "WindowFullTime": "Бүтэн цаг",
     "Button": "Илгээх"
+  },
+  "Front-End": {
+    "Title": "Front-End Developer",
+    "Subtitle": "Та бидний нэг хэсэг болж ажиллахыг хүсвэл  CV илгээнэ үү",
+    "Name": "Нэр",
+    "Phone": "Утасны дугаар",
+    "E-Mail": "Е-мэйл",
+    "CV-File": "CV-Файл",
+    "CV": "CV-гээ илгээх",
+    "Apply": "Илгээх"
   }
 }
