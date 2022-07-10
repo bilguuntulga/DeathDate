@@ -5,19 +5,13 @@ import './Home.css'
 const Home = () => {
     const { Navigation } = useApp();
     return (
-        <>
-            <div className='home'>
-                <div className='background'></div>
-                <div className='text'>
-                    <h1>
-                        {
-                            Navigation["Order"]
-                        }
-                    </h1>
-                </div>
-
+        <div className='container'>
+            <div className='background'></div>
+            <div className='text'>
+                <h1>{Navigation["Order"]}
+                </h1>
             </div>
-        </>
+        </div>
     )
 }
 
