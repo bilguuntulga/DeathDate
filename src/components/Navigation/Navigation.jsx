@@ -1,5 +1,6 @@
 import * as React from "react";
 import { useState } from "react";
+import { Link } from 'react-router-dom';
 import useApp from "../../hook/AppHook";
 import FunPlus from '../../assets/FunPlusLogo.png';
 import GlobalIcon from '../../assets/Global.png';
@@ -20,14 +21,16 @@ function Navigation() {
 
     return (
         <div className="navbar">
-            <img className="logo" src={FunPlus} alt="Fun Plus Logo"></img>
+            <Link to="/">
+                <img className="logo" src={FunPlus} alt="Fun Plus Logo"></img>
+            </Link>
             <nav>
                 <ul className={menuStyle}>
                     <li>
-                        <a href="#home">{Navigation["HomePage"]}</a>
+                        <Link to="/#home">{Navigation["HomePage"]}</Link>
                     </li>
                     <li>
-                        <a href="#about">{Navigation["About"]}</a>
+                        <Link to="/#about">{Navigation["About"]}</Link>
                     </li>
                     <li>
                         <a href="#service">{Navigation["Service"]}</a>

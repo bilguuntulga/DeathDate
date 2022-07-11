@@ -5,18 +5,18 @@
 }
 
 ::-webkit-scrollbar{
-    width: 5px;
+    width: 8px;
 }
 
 ::-webkit-scrollbar-thumb{
-    background-color: #3EB86F;
-    border-radius: 2.5px;
+    background-color: #6ca0ca;
+    border-radius: 4px;
 }
 
 ::-moz-selection{
-    background-color: #3EB86F;
+    background-color: #6ca0ca;
 }
 
 ::selection{
-    background-color: #3EB86F;
+    background-color: #6ca0ca;
 }

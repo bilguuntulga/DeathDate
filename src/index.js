@@ -1,14 +1,13 @@
 import ReactDOM from "react-dom";
-import { BrowserRouter } from 'react-router-dom';
 import App from './App'
 import { AppContainer } from './hook/AppHook';
-
+import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.render(
-    <BrowserRouter>
-        <AppContainer>
+    <AppContainer>
+        <BrowserRouter>
             <App />
-        </AppContainer>
-    </BrowserRouter>,
+        </BrowserRouter>
+    </AppContainer>,
     document.querySelector("#root")
 )

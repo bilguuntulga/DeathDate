@@ -1,10 +1,10 @@
 {
   "Navigation": {
     "HomePage": "Home",
-    "About": "About us",
+    "About": "About Us",
     "Service": "Service",
     "Partner": "Consumer",
-    "Contact": "Contact us",
+    "Contact": "Contact Us",
     "Order": "ONLINE BOOKING PLATFOTM"
   },
   "About": {
@@ -30,7 +30,7 @@
   },
   "Contact": {
     "ContactTitle": "Contact info",
-    "ContctLocation": "#21 Building,UN street,4th khoroo,Chingeltei district UlaanBaatar City,Mongolia"
+    "ContctLocation": "#21 Building, UN street, 4th khoroo, Chingeltei district UlaanBaatar City, Mongolia"
   },
   "HumanResources": {
     "HumanResourcesTitle": "Humon resources",
@@ -41,7 +41,7 @@
     "WindowFullTime": "Full time",
     "Button": "Apply"
   },
-  "Front-End": {
+  "Front": {
     "Title": "Front-End Developer",
     "Subtitle": "If you would like to be part of us, please send your CV",
     "Name": "Name",

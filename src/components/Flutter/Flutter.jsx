@@ -1,10 +1,10 @@
 import React from "react";
-import "./FrontEnd.css"
+import "./Flutter.css";
 
-function FrontEnd() {
+function Flutter() {
     return (
-        <div className="frontend-container">
-            <h1 className="title">Front-End Developer</h1>
+        <div className="flutter-container">
+            <h1 className="title">Flutter Developer</h1>
             <p className="subtitle">Та бидний нэг хэсэг болж ажиллахыг хүсвэл  CV илгээнэ үү</p>
             <form action="">
                 <input type="text" placeholder="Нэр" />
@@ -18,4 +18,4 @@ function FrontEnd() {
     );
 }
 
-export default FrontEnd;
+export default Flutter;

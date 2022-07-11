@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+a{
+    font-family: 'Inter', sans-serif;
+}
+
 /* Mobile */
 @media (max-width: 767px) {
     .navbar {
         width: 100%;
-        margin: auto;
+        position: fixed;
         display: flex;
         justify-content: space-between;
-        height: 48px;
-        position: fixed;
         background-color: white;
         z-index: 10;
     }
@@ -17,7 +21,6 @@
         top: 30px;
         left: 0;
         margin-bottom: 10px;
-        overflow: hidden;
         text-align: center;
         background-color: white;
         overflow: hidden;
@@ -52,6 +55,7 @@
 
     nav ul li a {
         color: black;
+        text-decoration: none;
     }
 
     .menu-icon {
@@ -59,11 +63,11 @@
     }
 
     .logo {
-        padding: 5px;
+        height: 28px;
     }
 
     .global-icon {
-        width: 20px;
+        width: 28px;
     }
 }
 
@@ -89,8 +93,14 @@
     }
 
     nav {
-        flex: 1;
+        display: flex;
+        align-items: center;
         text-align: right;
+    }
+
+    nav ul {
+        display: flex;
+        align-items: center;
     }
 
     nav ul li {
@@ -118,18 +128,18 @@
 @media (min-width: 1024px) {
     .navbar {
         width: 100%;
-        margin: auto;
+        position: fixed;
         display: flex;
         justify-content: space-between;
-        height: 48px;
-        position: fixed;
+        align-items: center;
         background-color: white;
         z-index: 10;
     }
 
     nav {
-        margin-top: 10px;
-        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         text-align: right;
     }
 
@@ -139,6 +149,11 @@
         margin-right: 30px;
     }
 
+    nav ul {
+        display: flex;
+        align-items: center;
+    }
+
     nav ul li a {
         text-decoration: none;
         color: black;
@@ -146,7 +161,8 @@
     }
 
     nav ul li a:hover {
-        color: aqua;
+        color: rgb(50, 199, 149);
+        transition: 0.5s;
     }
 
     .menu-icon {

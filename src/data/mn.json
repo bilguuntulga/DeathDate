@@ -30,7 +30,7 @@
   },
   "Contact": {
     "ContactTitle": "Холбоо барих",
-    "ContctLocation": "Монгол улс,ЧД 4-р хороо,Нэгдсэн Үндэсний гудамж,21-101"
+    "ContctLocation": "Монгол улс, ЧД 4-р хороо, Нэгдсэн Үндэсний гудамж, 21-101"
   },
   "HumanResources": {
     "HumanResourcesTitle": "Humon resources",
@@ -41,7 +41,7 @@
     "WindowFullTime": "Бүтэн цаг",
     "Button": "Илгээх"
   },
-  "Front-End": {
+  "Front": {
     "Title": "Front-End Developer",
     "Subtitle": "Та бидний нэг хэсэг болж ажиллахыг хүсвэл  CV илгээнэ үү",
     "Name": "Нэр",

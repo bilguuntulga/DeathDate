@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import useApp from "../../hook/AppHook"
 import Computer from "../../assets/Computer.png"
 import User from "../../assets/User.png"
@@ -27,9 +28,9 @@ function HumonResources() {
                         <img src={Calendar} alt="" />
                         {HumanResources["WindowFullTime"]}
                         <br />
-                        <button className='job-button'>
-                            {HumanResources["Button"]}
-                        </button>
+                        <Link to="front-end">
+                            <button className='job-button'>{HumanResources["Button"]}</button>
+                        </Link>
                     </div>
                 </Fade>
                 <Fade down>
@@ -43,7 +44,9 @@ function HumonResources() {
                         <img src={Calendar} alt="" />
                         {HumanResources["WindowFullTime"]}
                         <br />
-                        <button className='job-button'>{HumanResources["Button"]}</button>
+                        <Link to="flutter">
+                            <button className='job-button'>{HumanResources["Button"]}</button>
+                        </Link>
                     </div>
                 </Fade>
                 <Fade right>
@@ -57,7 +60,9 @@ function HumonResources() {
                         <img src={Calendar} alt="" />
                         {HumanResources["WindowFullTime"]}
                         <br />
-                        <button className='job-button'>{HumanResources["Button"]}</button>
+                        <Link to="back-end">
+                            <button className='job-button'>{HumanResources["Button"]}</button>
+                        </Link>
                     </div>
                 </Fade>
             </div>
