@@ -14,7 +14,7 @@ function HumonResources() {
 
     return (
         <div className="human-resource-container">
-            <h1 align="center">{HumanResources["HumanResourcesTitle"]}
+            <h1 className='human-resource-title'>{HumanResources["HumanResourcesTitle"]}
             </h1>
             <div className="jobs">
                 <Fade left>

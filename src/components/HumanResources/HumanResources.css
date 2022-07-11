@@ -1,23 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
 @media (max-width: 767px) {
     .jobs {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
     }
+
+    .human-resource-title {
+        text-align: center;
+        font-family: 'Acme', sans-serif;
+        font-size: 50px;
+    }
+
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+    .human-resource-container {
+        width: 90%;
+        height: 80vh;
+        margin: auto;
+    }
+
     .jobs {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
     }
+
+    .human-resource-title {
+        text-align: center;
+        font-family: 'Acme', sans-serif;
+    }
 }
 
 @media (min-width: 1024px) {
-    .human-resouce-container {
+    .human-resource-container {
         width: 960px;
-        height: 80vh;
+        height: 100vh;
+        margin: auto;
+    }
+
+    .human-resource-title {
+        text-align: center;
+        font-family: 'Acme', sans-serif;
     }
 
     .jobs {
@@ -31,12 +57,14 @@
 .window1,
 .window2,
 .window3 {
+    padding-top: 30px;
     border-radius: 10px;
     box-shadow: 0px 5px 10px #999;
     width: 300px;
-    height: 150px;
+    height: 180px;
     font-size: 20px;
     margin: 50px 10px;
+    font-family: 'Acme', sans-serif;
 }
 
 .window1 img,
@@ -56,12 +84,14 @@
     color: white;
     width: 80px;
     height: 30px;
+    margin-top: 10px;
 }
 
 .window1 hr,
 .window2 hr,
 .window3 hr {
     background: blue;
+    margin: 5px;
     width: 50%;
     color: blue;
 }

@@ -64,6 +64,7 @@ a{
 
     .logo {
         height: 28px;
+        padding: 3px;
     }
 
     .global-icon {
@@ -117,6 +118,10 @@ a{
 
     nav ul li a:hover {
         color: aqua;
+    }
+
+    .logo{
+        padding: 5px;
     }
 
     .menu-icon {

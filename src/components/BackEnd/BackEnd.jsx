@@ -11,7 +11,7 @@ function BackEnd() {
                 <input type="text" placeholder="Утасны дугаар" />
                 <input type="text" placeholder="И-мэйл" />
                 <label>CV Файл</label>
-                <button class="btn-upload">CV-гээ илгээх</button>
+                <button className="btn-upload">CV-гээ илгээх</button>
                 <input type="submit" value="Илгээх" />
             </form>
         </div>

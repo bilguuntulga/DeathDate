@@ -7,7 +7,7 @@ function Service() {
     const { Services } = useApp();
 
     return (
-        <div className='container'>
+        <div className='service-container'>
             <h1 id='service' className='service-title'>{Services["ServicesTittle"]}</h1>
             <div className="row1">
                 <Fade left>

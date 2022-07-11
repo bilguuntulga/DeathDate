@@ -1,24 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+* {
+    font-family: 'Acme', sans-serif;
+}
+
+.socials h2{
+    display: flex;
+    align-items: center;
+}
+
+.socials h2 img{
+    margin-right: 5px;
+}
+
+/* Mobile */
 @media (max-width: 767px) {
-    
+    .contact-container {
+        width: 90%;
+        margin: auto;
+    }
+
+    .contact-info {
+        text-align: center;
+        font-family: 'Acme', sans-serif;
+    }
+
+    .contact {
+        width: 80%;
+        margin: auto;
+        margin: 10px auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contact p {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .contact img {
+        width: 10px;
+        margin-right: 5px;
+    }
+
+    .socials {
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
-@media (min-width: 768px) and (max-width: 1023px){
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .contact-container {
+        width: 90%;
+        margin: auto;
+    }
 
+    .contact-info {
+        font-family: 'Acme', sans-serif;
+        text-align: center;
+    }
+
+    .contact {
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contact img {
+        width: 16px;
+        padding-right: 5px;
+    }
+
+    .contact p {
+        width: 30%;
+        text-align: center;
+    }
+
+    .socials {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    hr {
+        margin: 15px;
+    }
 }
 
-@media (min-width: 1024px){
-    .contact-container{
+/* Desktop and Laptop */
+@media (min-width: 1024px) {
+    .contact-container {
         width: 960px;
         margin: auto;
     }
 
-    .contact{
-        display: flex;
-        justify-content: center
+    .contact-info {
+        font-family: 'Acme', sans-serif;
+        text-align: center;
     }
 
-    .socials{
+    .contact {
+        margin-top: 30px;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-around;
+    }
+
+    .contact img {
+        width: 16px;
+        padding-right: 5px;
+    }
+
+    .contact p {
+        width: 200px;
+        text-align: center;
+    }
+
+    .socials {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    hr {
+        margin: 15px;
     }
 }
