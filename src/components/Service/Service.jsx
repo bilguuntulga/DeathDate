@@ -1,3 +1,4 @@
+import React from 'react';
 import Laptop from '../../assets/laptop.svg'
 import useApp from "../../hook/AppHook"
 import { Zoom, Fade } from 'react-reveal';
@@ -7,8 +8,10 @@ function Service() {
     const { Services } = useApp();
 
     return (
-        <div className='service-container'>
-            <h1 id='service' className='service-title'>{Services["ServicesTittle"]}</h1>
+        <div id="service" className='service-container'>
+            <Zoom>
+                <h1 id='service' className='service-title'>{Services["ServicesTittle"]}</h1>
+            </Zoom>
             <div className="row1">
                 <Fade left>
                     <div className="square row1-col1">

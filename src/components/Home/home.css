@@ -4,7 +4,7 @@
         width: 100%;
         height: 100vh;
     }
-    
+
     .background {
         width: 100%;
         height: 70vh;
@@ -12,13 +12,16 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        background-position-x: -330px;
     }
-    
+
     .text {
-        height: 100%;
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-    
+
     .text h1 {
         font-family: 'Acme', sans-serif;
         text-align: center;
@@ -32,25 +35,26 @@
         width: 100%;
         height: 100vh;
     }
-    
+
     .background {
         width: 100%;
-        height: 60vh;
+        height: 70vh;
         background-image: url('../../assets/TabletBackgroundImage.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
-    
+
     .text {
-        height: 100%;
+        width: 100%;
+        height: 30vh;
+        display: grid;
+        place-items: center;
     }
-    
+
     .text h1 {
         font-family: 'Acme', sans-serif;
-        margin-top: 150px;
         text-align: center;
-        line-height: 100%;
         font-size: 50px;
     }
 }
@@ -64,7 +68,7 @@
     }
 
     .background {
-        height: 80vh;
+        height: 70vh;
         background-image: url('../../assets/background.png');
         background-repeat: no-repeat;
         background-size: cover;
@@ -73,13 +77,16 @@
     }
 
     .text {
-        height: 100%;
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .text h1 {
         font-family: 'Acme', sans-serif;
         text-align: center;
-        line-height: 100%;
         font-size: 50px;
     }
 }

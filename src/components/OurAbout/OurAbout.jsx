@@ -2,15 +2,17 @@ import * as React from "react";
 import Mobile from '../../assets/Phone11.svg'
 import './Ourabout.css'
 import useApp from "../../hook/AppHook"
-import { Fade } from 'react-reveal';
+import { Fade, Zoom } from 'react-reveal';
 
 const OurAbout = () => {
     const { About } = useApp();
 
     return (
-        <div className="container" id="about">
-            <h1 className="title">{About["Title"]}</h1>
-            <h3 className="subtitle">{About["Subtitle"]}</h3>
+        <div className="about-container" id="about">
+            <Zoom>
+                <h1 className="title">{About["Title"]}</h1>
+                <h3 className="subtitle">{About["Subtitle"]}</h3>
+            </Zoom>
             <div className="row">
                 <div className="col1">
                     <Fade left><img className="phone" src={Mobile} alt="Phone" /></Fade>

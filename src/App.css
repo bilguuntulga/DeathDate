@@ -1,26 +1,27 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
-body{
+body {
     overflow-x: hidden;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 8px;
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
     background-color: #6ca0ca;
     border-radius: 4px;
 }
 
-::-moz-selection{
+::-moz-selection {
     background-color: #6ca0ca;
 }
 
-::selection{
+::selection {
     background-color: #6ca0ca;
 }

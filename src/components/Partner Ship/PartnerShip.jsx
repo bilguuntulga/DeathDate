@@ -12,9 +12,11 @@ const PartnerShip = () => {
 
     return (
         <div id='partner' className='partner-ship-container'>
-            <h1 className='title' >
-                <b>{Customer["CustomerTitle"]}</b>
-            </h1>
+            <Zoom>
+                <h1 className='title' >
+                    {Customer["CustomerTitle"]}
+                </h1>
+            </Zoom>
             <div className='partners'>
                 <Zoom>
                     <img className="partner-logo" src={OyuTolgoi} alt="Oyu Tolgoi" />

@@ -1,25 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 
 @media (max-width: 767px) {
-    .jobs {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
+    .human-resource-container {
+        width: 100%;
+        margin: 50px 0px;
+        padding: 5%;
     }
-
+    
     .human-resource-title {
         text-align: center;
         font-family: 'Acme', sans-serif;
-        font-size: 50px;
     }
 
+    .jobs {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .window1,
+    .window2,
+    .window3 {
+        width: 100%;
+        height: 180px;
+        margin-top: 20px;
+        padding-top: 30px;
+        border-radius: 10px;
+        box-shadow: 0px 5px 10px #999;
+        font-size: 20px;
+        font-family: 'Acme', sans-serif;
+    }
+
+    .window1 img,
+    .window2 img,
+    .window3 img {
+        margin-right: 5px;
+    }
+
+    .job-button {
+        background: #EE2A5F;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        width: 80px;
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .window1 hr,
+    .window2 hr,
+    .window3 hr {
+        background: rgb(43, 43, 187);
+        margin: 5px;
+        width: 50%;
+        color: rgb(43, 43, 187);
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
     .human-resource-container {
-        width: 90%;
-        height: 80vh;
-        margin: auto;
+        width: 100%;
+        padding: 10%;
+    }
+
+    .human-resource-title {
+        text-align: center;
+        font-family: 'Acme', sans-serif;
     }
 
     .jobs {
@@ -28,17 +75,50 @@
         flex-wrap: wrap;
     }
 
-    .human-resource-title {
-        text-align: center;
+    .window1,
+    .window2,
+    .window3 {
+        padding-top: 30px;
+        border-radius: 10px;
+        box-shadow: 0px 5px 10px #999;
+        width: 300px;
+        height: 180px;
+        font-size: 20px;
+        margin: 50px 10px;
         font-family: 'Acme', sans-serif;
+    }
+
+    .window1 img,
+    .window2 img,
+    .window3 img {
+        margin-right: 5px;
+    }
+
+    .job-button {
+        background: #EE2A5F;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        width: 80px;
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .window1 hr,
+    .window2 hr,
+    .window3 hr {
+        background: rgb(43, 43, 187);
+        margin: 5px;
+        width: 50%;
+        color: rgb(43, 43, 187);
     }
 }
 
 @media (min-width: 1024px) {
     .human-resource-container {
         width: 960px;
-        height: 100vh;
         margin: auto;
+        margin-bottom: 80px;
     }
 
     .human-resource-title {
@@ -49,49 +129,43 @@
     .jobs {
         display: flex;
         justify-content: center;
-
     }
-}
 
+    .window1,
+    .window2,
+    .window3 {
+        padding-top: 30px;
+        border-radius: 10px;
+        box-shadow: 0px 5px 10px #999;
+        width: 300px;
+        height: 180px;
+        font-size: 20px;
+        margin: 50px 10px;
+        font-family: 'Acme', sans-serif;
+    }
 
-.window1,
-.window2,
-.window3 {
-    padding-top: 30px;
-    border-radius: 10px;
-    box-shadow: 0px 5px 10px #999;
-    width: 300px;
-    height: 180px;
-    font-size: 20px;
-    margin: 50px 10px;
-    font-family: 'Acme', sans-serif;
-}
+    .window1 img,
+    .window2 img,
+    .window3 img {
+        margin-right: 5px;
+    }
 
-.window1 img,
-.window2 img,
-.window3 img {
-    margin-right: 5px;
-}
+    .job-button {
+        background: #EE2A5F;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        width: 80px;
+        height: 30px;
+        margin-top: 10px;
+    }
 
-.window1 h1 {
-    font-size: 30px;
-}
-
-.job-button {
-    background: #EE2A5F;
-    border: none;
-    border-radius: 10px;
-    color: white;
-    width: 80px;
-    height: 30px;
-    margin-top: 10px;
-}
-
-.window1 hr,
-.window2 hr,
-.window3 hr {
-    background: blue;
-    margin: 5px;
-    width: 50%;
-    color: blue;
+    .window1 hr,
+    .window2 hr,
+    .window3 hr {
+        background: rgb(43, 43, 187);
+        margin: 5px;
+        width: 50%;
+        color: rgb(43, 43, 187);
+    }
 }

@@ -26,27 +26,30 @@
 @media (min-width: 768px) and (max-width: 1023px){
     .partner-ship-container{
         width: 100%;
-        height: 40vh;
+        padding: 10%;
     }
 
     .partners{
-        margin-top: 70px;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
     }
 
     .partner-logo{
-        width: 150px;
-        padding: 20px;
+        width: 100px;
+        margin: 20px;
     }
 }
 
 @media (min-width: 1024px){
     .partner-ship-container{
         width: 960px;
-        height: 50vh;
         margin: auto;
+        margin-bottom: 80px;
+    }
+
+    .title{
+        margin-bottom: 20px;
     }
     
     .partners{

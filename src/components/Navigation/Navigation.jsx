@@ -27,10 +27,10 @@ function Navigation() {
             <nav>
                 <ul className={menuStyle}>
                     <li>
-                        <Link to="/#home">{Navigation["HomePage"]}</Link>
+                        <a href="#home">{Navigation["HomePage"]}</a>
                     </li>
                     <li>
-                        <Link to="/#about">{Navigation["About"]}</Link>
+                        <a href="#about">{Navigation["About"]}</a>
                     </li>
                     <li>
                         <a href="#service">{Navigation["Service"]}</a>
