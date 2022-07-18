@@ -41,14 +41,13 @@
     "WindowFullTime": "Full time",
     "Button": "Apply"
   },
-  "Front": {
-    "Title": "Front-End Developer",
+  "Job": {
     "Subtitle": "If you would like to be part of us, please send your CV",
     "Name": "Name",
     "Phone": "Phone number",
     "E-Mail": "E-Mail",
-    "CV-File": "CV-File",
-    "CV": "CV",
+    "CV-File": "CV File:",
+    "CV": "Sent CV",
     "Apply": "Apply"
   }
 }

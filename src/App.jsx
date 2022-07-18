@@ -4,7 +4,7 @@ import { lazy, Suspense } from 'react';
 import { Route, Routes } from 'react-router-dom';
 const Navigation = lazy(() => import('./components/Navigation/Navigation'));
 const Contact = lazy(() => import('./components/Contact/Contact'));
-const Main = lazy(() => import('./components/Main'));
+const Main = lazy(() => import('./pages/Main'));
 const Loading = lazy(() => import('./components/Loading'));
 const Job = lazy(() => import('./components/Job/Job'));
 

@@ -1,11 +1,10 @@
-import React from 'react'
-import OyuTolgoi from '../../assets/Oyutolgoi.svg'
-import Dashwaanjil from '../../assets/Dashwanjil.png'
-import Mobicom from '../../assets/Mobicom.png'
-import Unitel from '../../assets/logo.svg'
-import './PartnerShip.css'
-import useApp from "../../hook/AppHook"
+import React from 'react';
+import Dashwaanjil from '../../assets/partner-logos/Dashwanjil.png';
+import Skytel from '../../assets/partner-logos/skytel-logo.png';
+import EHotel from '../../assets/partner-logos/ehotel-logo.png';
+import useApp from "../../hook/AppHook";
 import { Zoom } from 'react-reveal';
+import './PartnerShip.css';
 
 const PartnerShip = () => {
     const { Customer } = useApp();
@@ -19,10 +18,9 @@ const PartnerShip = () => {
             </Zoom>
             <div className='partners'>
                 <Zoom>
-                    <img className="partner-logo" src={OyuTolgoi} alt="Oyu Tolgoi" />
-                    <img className="partner-logo" src={Mobicom} alt="Mobicom" />
-                    <img className="partner-logo" src={Dashwaanjil} alt="Dashwaajil" />
-                    <img className="partner-logo" src={Unitel} alt="Unitel" />
+                    <img className="partner-logo" src={Dashwaanjil} alt="Mobicom" />
+                    <img className="partner-logo" src={Skytel} alt="Skytel" />
+                    <img className="partner-logo" src={EHotel} alt="EHotel" />
                 </Zoom>
             </div>
         </div>

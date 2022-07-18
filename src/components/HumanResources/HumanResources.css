@@ -118,7 +118,8 @@
     .human-resource-container {
         width: 960px;
         margin: auto;
-        margin-bottom: 80px;
+        padding: 5% 0;
+
     }
 
     .human-resource-title {
@@ -136,7 +137,7 @@
     .window3 {
         padding-top: 30px;
         border-radius: 10px;
-        box-shadow: 0px 5px 10px #999;
+        box-shadow: 0px 3px 10px #bebebe;
         width: 300px;
         height: 180px;
         font-size: 20px;
