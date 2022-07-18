@@ -9,6 +9,7 @@ import PhoneIcon from '../../assets/Phone-Icon.png';
 import ContactIcon from '../../assets/Contact.png';
 import MapIcon from '../../assets/Map-Icon.png';
 import "./Contact.css";
+import { IoCall } from "react-icons/io"
 
 const Contact = () => {
     const { Contact } = useApp();
